@@ -6,12 +6,12 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [
-    vue(), 
-    unocss(), 
+    vue(),
+    unocss(),
     fonts({
       google: {
-        'families': ['Roboto:ital,wght@0,400;0,700;1,400;1,700']
-      }
-    })
+        families: ['Roboto:ital,wght@0,400;0,700;1,400;1,700'],
+      },
+    }),
   ],
 })
